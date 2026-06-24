@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a8"/>
+      <stop offset="1" stop-color="#ff9e7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#sky)"/>
+  <!-- corner curb -->
+  <path d="M8 50 H40 a16 16 0 0 1 16 -16 V8" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 8"/>
+  <!-- planter -->
+  <rect x="14" y="40" width="16" height="12" rx="2" fill="#7a8b5a"/>
+  <!-- plant -->
+  <path d="M22 40 C18 32 16 30 16 26 M22 40 C26 32 28 31 28 27 M22 40 V24" fill="none" stroke="#5f7544" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="22" cy="22" r="3.6" fill="#ef6f9c"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="A daylit intersection with clear sightlines, inspired by Hoboken, New Jersey">
+  <defs><linearGradient id="g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe0e4"/><stop offset="1" stop-color="#dfeae2"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g4)"/>
+  <rect y="300" width="800" height="300" fill="#6f7468"/>
+  <!-- crossing roads -->
+  <rect x="330" y="300" width="140" height="300" fill="#7b8073"/>
+  <!-- crosswalk -->
+  <g fill="#f4f1e9" opacity="0.9"><rect x="345" y="320" width="22" height="110"/><rect x="378" y="320" width="22" height="110"/><rect x="411" y="320" width="22" height="110"/><rect x="444" y="320" width="22" height="110"/></g>
+  <!-- daylight box with delineators -->
+  <rect x="120" y="450" width="180" height="120" rx="6" fill="none" stroke="#f4f1e9" stroke-width="5"/>
+  <g fill="#f4f1e9"><rect x="135" y="430" width="9" height="36" rx="4"/><rect x="200" y="430" width="9" height="36" rx="4"/><rect x="276" y="430" width="9" height="36" rx="4"/></g>
+  <g><circle cx="210" cy="510" r="40" fill="#86714f"/><circle cx="210" cy="510" r="31" fill="#6f8a4c"/><circle cx="198" cy="500" r="11" fill="#f3b14e"/><circle cx="224" cy="500" r="10" fill="#ef6f9c"/></g>
+  <!-- clear sightline arrow -->
+  <path d="M150 380 L640 380" stroke="#2f6f7a" stroke-width="5" stroke-dasharray="14 10" opacity="0.7"/>
+  <path d="M640 380 l-18 -10 v20 z" fill="#2f6f7a" opacity="0.7"/>
+</svg>

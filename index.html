@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community Corners — Plant, paint &amp; protect your SF corner</title>
+  <meta name="description" content="Community Corners is a San Francisco pilot that lets neighborhoods turn safer, daylit street corners into beautiful places with planters and murals. Learn what it is, why it matters, and how to get one." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Community Corners — Plant, paint &amp; protect your SF corner" />
+  <meta property="og:description" content="Turn a safer street corner into a beautiful neighborhood place with planters and murals. A San Francisco community placemaking pilot." />
+  <meta property="og:image" content="assets/img/hero-poster.svg" />
+  <meta name="theme-color" content="#ef8a5e" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts: warm characterful display + clean sans. Swap or self-host as you like. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================ HEADER / NAV ============================ -->
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Community Corners home">
+        <img src="assets/favicon.svg" alt="" width="34" height="34" class="brand-mark" />
+        <span class="brand-name">Community&nbsp;Corners</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#what">What it is</a></li>
+          <li><a href="#why">Why</a></li>
+          <li><a href="#examples">Examples</a></li>
+          <li><a href="#how">How to get one</a></li>
+          <li><a href="#rules">Rules</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#signup">Get updates</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <!--
+          TODO: hero video — drop a timelapse in assets/video/ and uncomment this block.
+          The SVG below stays as the poster/fallback. See assets/video/REPLACE-ME.md.
+        -->
+        <!--
+        <video class="hero-video" autoplay muted loop playsinline preload="none"
+               poster="assets/img/hero-poster.svg">
+          <source src="assets/video/hero.webm" type="video/webm" />
+          <source src="assets/video/hero.mp4" type="video/mp4" />
+        </video>
+        -->
+        <img class="hero-img" src="assets/img/hero-poster.svg"
+             alt="A foggy San Francisco street corner at golden hour, with native flowers blooming in planters beside a painted crosswalk." />
+        <div class="hero-overlay"></div>
+        <div class="grain" aria-hidden="true"></div>
+      </div>
+
+      <div class="wrap hero-content">
+        <p class="eyebrow">A San Francisco neighborhood pilot</p>
+        <h1 id="hero-title">Make your corner<br />bloom.</h1>
+        <p class="hero-sub">
+          San Francisco is clearing parked cars from the curbs by crosswalks so everyone can see
+          each other. <strong>Community Corners</strong> lets your neighborhood turn that safer
+          space into something beautiful — with planters and murals.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#signup">Keep me posted</a>
+          <a class="btn btn-ghost" href="#how">How it works</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#what" aria-label="Scroll to learn more"><span></span></a>
+    </section>
+
+    <!-- ============================ WHAT IS IT ============================ -->
+    <section class="section" id="what" aria-labelledby="what-title">
+      <div class="wrap narrow">
+        <p class="eyebrow eyebrow-dark">What is it?</p>
+        <h2 id="what-title">A safer corner, made beautiful by the people who live there.</h2>
+        <p class="lead">
+          By state law, cars can't park in the 20&nbsp;feet right before a crosswalk anymore — it's
+          called <em>daylighting</em>, and it lets drivers and people walking actually see one
+          another. That law just opened up thousands of small, sunny patches of street.
+        </p>
+        <p>
+          <strong>Community Corners</strong> is a two-year City pilot that lets neighborhood groups
+          adopt one of those patches — a <abbr title="Painted Safety Zone: a white box painted on the street, often flanked by flexible posts, that keeps the daylight zone clear">Painted&nbsp;Safety&nbsp;Zone</abbr> —
+          and fill it with low planters of native plants or a hand-painted street mural. The result
+          is a corner that's easier to cross <em>and</em> a little more loved.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ WHY ============================ -->
+    <section class="section section-tint" id="why" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">Why it matters</p>
+          <h2 id="why-title">Good for the block in three ways.</h2>
+        </div>
+        <div class="pillars">
+          <article class="pillar">
+            <div class="pillar-icon" aria-hidden="true">🚸</div>
+            <h3>Safer</h3>
+            <p>
+              Clear corners mean a driver can see a kid stepping off the curb. It's not a small
+              thing: about <strong>13% of city streets see 74%</strong> of San Francisco's severe and
+              fatal crashes. Daylighting is one of the cheapest ways to fix that.
+            </p>
+          </article>
+          <article class="pillar">
+            <div class="pillar-icon" aria-hidden="true">🌿</div>
+            <h3>Greener</h3>
+            <p>
+              Native plants, pollinators, and a splash of color where there used to be a parked
+              bumper. Small gardens add up to a leafier, more resilient, more <em>San Francisco</em>
+              neighborhood.
+            </p>
+          </article>
+          <article class="pillar">
+            <div class="pillar-icon" aria-hidden="true">🤝</div>
+            <h3>Yours</h3>
+            <p>
+              These corners are designed, planted, and cared for by neighbors — not contractors.
+              It's a hands-on way to take pride in your block and meet the people on it.
+            </p>
+          </article>
+        </div>
+        <p class="why-credibility">
+          Community Corners is part of the City's broader push for safer streets — Mayor Lurie's
+          <strong>Street Safety Initiative</strong>, the Board of Supervisors' <strong>Street Safety
+          Act</strong>, and California's daylighting law (<abbr title="Assembly Bill 413">AB&nbsp;413</abbr>) — run by the SFMTA's Safety Zone Program.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ EXAMPLES ============================ -->
+    <section class="section" id="examples" aria-labelledby="examples-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">See it</p>
+          <h2 id="examples-title">What a Community Corner can look like.</h2>
+          <p class="section-intro">
+            A few placeholder sketches for now — swap in real neighborhood photos as corners come to
+            life. <span class="muted">(See <code>assets/img/REPLACE-ME.md</code>.)</span>
+          </p>
+        </div>
+        <div class="cards">
+          <!-- TODO: replace example images with real photos (assets/img/) -->
+          <figure class="card">
+            <img src="assets/img/example-planters.svg" loading="lazy" width="800" height="600"
+                 alt="A corner planted with native flowers in wine-barrel planters inside a painted safety zone." />
+            <figcaption>
+              <h3>Native-plant planters</h3>
+              <p>Low wine-barrel planters of drought-tolerant natives — easy to maintain, friendly to pollinators.</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="assets/img/example-mural.svg" loading="lazy" width="800" height="600"
+                 alt="A colorful abstract street mural painted within a daylight zone." />
+            <figcaption>
+              <h3>A street mural</h3>
+              <p>A painted corner that says <em>this is our block</em> — designed with neighbors, approved by the Arts Commission.</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="assets/img/example-cortland.svg" loading="lazy" width="800" height="600"
+                 alt="The Cortland Avenue pilot corner in Bernal Heights with neighbors gathered nearby." />
+            <figcaption>
+              <h3>The Cortland Ave pilot</h3>
+              <p>SFMTA's first demonstration corner in District&nbsp;9 showed how neighbors and the City can build one together.</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="assets/img/example-hoboken.svg" loading="lazy" width="800" height="600"
+                 alt="A daylit intersection with clear sightlines, inspired by Hoboken, New Jersey." />
+            <figcaption>
+              <h3>Proven elsewhere</h3>
+              <p>Cities like Hoboken, NJ have daylighted every intersection — and watched crashes fall.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ HOW ============================ -->
+    <section class="section section-tint" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">How to get one</p>
+          <h2 id="how-title">From idea to blooming corner.</h2>
+        </div>
+
+        <div class="callout callout-info">
+          <strong>First, the honest part:</strong> the City registers Community Corners to
+          <em>organizations</em> — a nonprofit, a community benefit district, a merchants' or
+          neighborhood association, or a business right next to the corner — because someone has to
+          carry insurance and maintain it. If that's not you yet, don't stop reading: most corners
+          start with one neighbor who rallies a few others. Step&nbsp;2 is about finding your team.
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">1</span>
+            <div>
+              <h3>Scout your corner</h3>
+              <p>Look for a calm, stop-sign corner on a low-traffic street — no bus stop, no
+                tow-away lane. The curb space right before the crosswalk is the spot.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">2</span>
+            <div>
+              <h3>Find (or become) an eligible group</h3>
+              <p>Team up with a local nonprofit, neighborhood or merchants' association, or an
+                adjacent business willing to sponsor and insure the corner. A handful of motivated
+                neighbors can form or join one.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">3</span>
+            <div>
+              <h3>Check for a Painted Safety Zone</h3>
+              <p>Your corner needs the white "safety zone" box. Many already have one (the City is
+                mapping them). If yours doesn't, the program can let your group add one at your own
+                expense.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">4</span>
+            <div>
+              <h3>Register with the City</h3>
+              <p>Your group submits the corner through SFMTA's online portal and pays a <strong>$50</strong>
+                registration fee. Registration lasts a year and renews annually.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">5</span>
+            <div>
+              <h3>Plant, paint &amp; care for it</h3>
+              <p>Install your planters or mural to the design rules below — then water, weed, and
+                keep it tidy. The corner is yours to look after.</p>
+            </div>
+          </li>
+        </ol>
+
+        <p class="how-cta">
+          Want a nudge when registration opens and the corner map goes live?
+          <a href="#signup">Join the updates list&nbsp;→</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ RULES ============================ -->
+    <section class="section" id="rules" aria-labelledby="rules-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">Good to know</p>
+          <h2 id="rules-title">The rules, in plain English.</h2>
+          <p class="section-intro">
+            The design standards exist for one reason: <strong>keep the corner visible</strong>.
+            Everything below protects the sightline that makes daylighting work.
+          </p>
+        </div>
+
+        <div class="rules-grid">
+          <article class="rule">
+            <h3><span class="rule-tick" aria-hidden="true">📍</span> Where it can go</h3>
+            <p>Nearside of a daylit intersection, on a low-volume street (under ~2,000 vehicles/day),
+              at a stop sign — no bus stops or tow-away zones.</p>
+          </article>
+          <article class="rule">
+            <h3><span class="rule-tick" aria-hidden="true">🪴</span> Keep planters low</h3>
+            <p>Planters no taller than <strong>24&nbsp;inches</strong>; the plants in them kept under
+              <strong>36&nbsp;inches</strong>. Low enough to see over, into and across.</p>
+          </article>
+          <article class="rule">
+            <h3><span class="rule-tick" aria-hidden="true">🚫</span> No sitting structures</h3>
+            <p>No benches, platforms, or parklet-style builds in the zone — they block visibility.
+              Planters and murals only.</p>
+          </article>
+          <article class="rule">
+            <h3><span class="rule-tick" aria-hidden="true">🎨</span> Murals, done right</h3>
+            <p>Street murals are welcome but can't mimic traffic markings or carry advertising, and
+              must be approved by the <strong>SF Arts Commission</strong>.</p>
+          </article>
+          <article class="rule">
+            <h3><span class="rule-tick" aria-hidden="true">🧯</span> Mind the clearances</h3>
+            <p>Stay <strong>5&nbsp;ft</strong> from a standard fire hydrant (7.5&nbsp;ft from a big
+              one), 2&nbsp;ft from utilities, and never attach anything to poles, signs, or trees.</p>
+          </article>
+          <article class="rule">
+            <h3><span class="rule-tick" aria-hidden="true">🧹</span> You maintain it</h3>
+            <p>Your group waters, weeds, cleans, removes graffiti, and keeps the gutter clear — and
+              agrees to hold the City harmless. It's a real commitment.</p>
+          </article>
+        </div>
+        <p class="rules-note">
+          This is a friendly summary, not the official rulebook. For exact requirements see the
+          <a href="#sources">SFMTA program documents</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ FAQ ============================ -->
+    <section class="section section-tint" id="faq" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">Questions</p>
+          <h2 id="faq-title">What if…?</h2>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>What if my corner has no Painted Safety Zone?</summary>
+            <div class="faq-body">
+              <p>You can still do it. The City is mapping existing and planned safety zones, and
+                registering at one of those is the easiest path. If your corner doesn't have one, the
+                program lets your group install a safety zone at your own expense (hiring a licensed
+                contractor to paint it) — it just takes a bit more time and planning.</p>
+            </div>
+          </details>
+          <details>
+            <summary>Can I do this as an individual resident?</summary>
+            <div class="faq-body">
+              <p>Not by yourself — registration is open to organizations: nonprofits, community
+                benefit districts, merchants' or neighborhood associations, established
+                community-based groups, or a business adjacent to the corner. The practical move is
+                to partner with a group that already exists on your block, or gather a few neighbors
+                and join/form one. Plenty of corners start exactly that way.</p>
+            </div>
+          </details>
+          <details>
+            <summary>What does it cost?</summary>
+            <div class="faq-body">
+              <p>The City's registration fee is <strong>$50</strong>. Beyond that, your group covers
+                your own materials — planters, plants, soil, paint — and ongoing upkeep. If your
+                corner needs a new Painted Safety Zone, that's an added cost too.</p>
+            </div>
+          </details>
+          <details>
+            <summary>How long does it last? Do I have to renew?</summary>
+            <div class="faq-body">
+              <p>Registration is valid for one year and renews annually. The pilot itself runs for
+                two years, after which the SFMTA decides whether to continue it.</p>
+            </div>
+          </details>
+          <details>
+            <summary>Which organizations support this?</summary>
+            <div class="faq-body">
+              <!-- TODO: replace with your real partner / supporter list -->
+              <p>This advocacy effort is supported by a growing coalition of neighborhood and street-safety
+                groups across San Francisco. <em>(Partner list coming soon — want your group listed?
+                <a href="#signup">Get in touch.</a>)</em></p>
+            </div>
+          </details>
+          <details>
+            <summary>Is this an official City website?</summary>
+            <div class="faq-body">
+              <p>No — this is a community-run site that explains the SFMTA's Community Corners pilot in
+                plain language and helps neighbors get involved. For official rules, forms, and the
+                latest details, always check the <a href="#sources">SFMTA program documents</a> below.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SIGNUP / CTA ============================ -->
+    <section class="section signup" id="signup" aria-labelledby="signup-title">
+      <div class="wrap narrow signup-inner">
+        <p class="eyebrow">Stay in the loop</p>
+        <h2 id="signup-title">I'm interested — keep me posted.</h2>
+        <p class="signup-sub">
+          Leave your email and we'll send <strong>occasional</strong> updates — when registration
+          opens, when the corner map goes live, and other program milestones. No spam, ever.
+        </p>
+
+        <div class="form-embed">
+          <!--
+            TODO: Google Form — paste your form's embed URL into the iframe src below
+            (in your Google Form: Send → < > Embed HTML → copy the src), and update the
+            fallback link's href. See README.md.
+          -->
+          <iframe
+            class="gform"
+            title="Community Corners interest form"
+            src="https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform?embedded=true"
+            loading="lazy"
+            width="100%" height="640">Loading…</iframe>
+
+          <p class="form-fallback">
+            Form not loading?
+            <!-- TODO: replace with your Google Form's share link -->
+            <a href="https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform"
+               target="_blank" rel="noopener">Open the form in a new tab&nbsp;↗</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer" id="sources">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="Community Corners home">
+          <img src="assets/favicon.svg" alt="" width="30" height="30" class="brand-mark" />
+          <span class="brand-name">Community Corners</span>
+        </a>
+        <p class="footer-tagline">Neighbors making San Francisco's corners safer and more beautiful, one block at a time.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Sections">
+        <h2 class="footer-h">On this page</h2>
+        <ul>
+          <li><a href="#what">What it is</a></li>
+          <li><a href="#why">Why it matters</a></li>
+          <li><a href="#how">How to get one</a></li>
+          <li><a href="#rules">The rules</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Official sources">
+        <h2 class="footer-h">Official sources</h2>
+        <ul>
+          <!-- TODO: confirm these links stay current -->
+          <li><a href="https://www.sfmta.com/media/45219/download?inline" target="_blank" rel="noopener">SFMTA Board staff report (Jun 16, 2026)</a></li>
+          <li><a href="https://www.sfmta.com/media/45220/download?inline" target="_blank" rel="noopener">SFMTA Board presentation</a></li>
+          <li><a href="https://www.sfmta.com/" target="_blank" rel="noopener">SFMTA — Safety Zone Program</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2 class="footer-h">Get involved</h2>
+        <ul>
+          <li><a href="#signup">Join the updates list</a></li>
+          <!-- TODO: replace with a real contact email -->
+          <li><a href="mailto:hello@example.org">hello@example.org</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap footer-bottom">
+      <p class="disclaimer">
+        This is an independent, community-run advocacy site about the SFMTA's Community Corners pilot
+        program. It is not affiliated with or endorsed by the City and County of San Francisco. Always
+        confirm details with official SFMTA sources.
+      </p>
+      <p class="copyright">© <span id="year">2026</span> Community Corners advocates. Made with care in San Francisco.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

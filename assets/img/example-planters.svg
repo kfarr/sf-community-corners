@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="A corner planted with native flowers in wine-barrel planters">
+  <defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe3e6"/><stop offset="1" stop-color="#e9efe6"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g1)"/>
+  <rect y="430" width="800" height="170" fill="#717568"/>
+  <rect x="60" y="452" width="680" height="120" rx="6" fill="none" stroke="#f4f1e9" stroke-width="5"/>
+  <g><circle cx="200" cy="500" r="46" fill="#86714f"/><circle cx="200" cy="500" r="36" fill="#5f7544"/>
+  <circle cx="184" cy="486" r="13" fill="#ef6f9c"/><circle cx="214" cy="482" r="12" fill="#f3b14e"/><circle cx="206" cy="508" r="12" fill="#e8638c"/></g>
+  <g><circle cx="400" cy="500" r="50" fill="#86714f"/><circle cx="400" cy="500" r="39" fill="#6f8a4c"/>
+  <circle cx="384" cy="488" r="13" fill="#c9d36a"/><circle cx="416" cy="486" r="13" fill="#ef6f9c"/><circle cx="402" cy="510" r="12" fill="#f3b14e"/></g>
+  <g><circle cx="600" cy="500" r="46" fill="#86714f"/><circle cx="600" cy="500" r="36" fill="#5f7544"/>
+  <circle cx="586" cy="488" r="12" fill="#f3b14e"/><circle cx="614" cy="486" r="12" fill="#e8638c"/><circle cx="600" cy="510" r="12" fill="#c9d36a"/></g>
+  <rect x="92" y="420" width="9" height="40" rx="4" fill="#f4f1e9"/><rect x="700" y="420" width="9" height="40" rx="4" fill="#f4f1e9"/>
+</svg>

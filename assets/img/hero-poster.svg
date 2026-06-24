@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="A foggy San Francisco street corner at golden hour">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe6c2"/>
+      <stop offset="0.45" stop-color="#ffb98a"/>
+      <stop offset="0.85" stop-color="#f08f7a"/>
+      <stop offset="1" stop-color="#cf7f86"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#eef1f0" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.32" r="0.28">
+      <stop offset="0" stop-color="#fff7e6"/>
+      <stop offset="1" stop-color="#fff7e6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1150" cy="290" r="120" fill="#fff3da" opacity="0.9"/>
+  <rect width="1600" height="900" fill="url(#sun)"/>
+  <!-- distant hills -->
+  <path d="M0 560 C 250 500 420 540 640 520 C 900 496 1100 540 1340 510 C 1460 496 1540 510 1600 504 V900 H0 Z" fill="#b9a3a8" opacity="0.55"/>
+  <path d="M0 620 C 300 580 520 612 760 600 C 1040 586 1260 624 1600 600 V900 H0 Z" fill="#8f9a7e" opacity="0.7"/>
+  <!-- street -->
+  <rect y="700" width="1600" height="200" fill="#6f7468"/>
+  <!-- painted safety zone box -->
+  <rect x="120" y="726" width="520" height="150" rx="6" fill="none" stroke="#f4f1e9" stroke-width="6"/>
+  <!-- crosswalk -->
+  <g fill="#f4f1e9" opacity="0.92">
+    <rect x="700" y="712" width="40" height="176"/>
+    <rect x="770" y="712" width="40" height="176"/>
+    <rect x="840" y="712" width="40" height="176"/>
+    <rect x="910" y="712" width="40" height="176"/>
+  </g>
+  <!-- delineator posts -->
+  <g fill="#f4f1e9"><rect x="150" y="690" width="10" height="46" rx="4"/><rect x="600" y="690" width="10" height="46" rx="4"/></g>
+  <!-- planters -->
+  <g>
+    <rect x="210" y="772" width="120" height="70" rx="8" fill="#7a8b5a"/>
+    <path d="M270 772 C246 720 232 712 232 678 M270 772 C300 724 318 716 318 690 M270 772 V668" fill="none" stroke="#5f7544" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="232" cy="676" r="14" fill="#ef6f9c"/><circle cx="318" cy="690" r="12" fill="#f3b14e"/><circle cx="270" cy="664" r="13" fill="#e8638c"/>
+    <rect x="410" y="784" width="120" height="62" rx="8" fill="#86714f"/>
+    <path d="M470 784 C450 740 440 728 440 700 M470 784 C496 742 506 730 506 706 M470 784 V694" fill="none" stroke="#6f8a4c" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="440" cy="700" r="12" fill="#f3b14e"/><circle cx="506" cy="706" r="12" fill="#ef6f9c"/><circle cx="470" cy="690" r="13" fill="#c9d36a"/>
+  </g>
+  <!-- fog wash -->
+  <rect y="430" width="1600" height="470" fill="url(#fog)"/>
+</svg>

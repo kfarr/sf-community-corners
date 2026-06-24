@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="The Cortland Avenue pilot corner with neighbors gathered nearby">
+  <defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd9a8"/><stop offset="1" stop-color="#f0a98a"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g3)"/>
+  <!-- victorian facades -->
+  <g fill="#d98f7e" opacity="0.85"><rect x="40" y="170" width="150" height="230"/><rect x="210" y="140" width="150" height="260"/></g>
+  <rect x="56" y="200" width="40" height="60" fill="#fbeede"/><rect x="120" y="200" width="40" height="60" fill="#fbeede"/>
+  <rect x="232" y="180" width="40" height="60" fill="#fbeede"/><rect x="300" y="180" width="40" height="60" fill="#fbeede"/>
+  <rect y="400" width="800" height="200" fill="#717568"/>
+  <rect x="70" y="424" width="430" height="120" rx="6" fill="none" stroke="#f4f1e9" stroke-width="5"/>
+  <g><circle cx="170" cy="476" r="44" fill="#86714f"/><circle cx="170" cy="476" r="34" fill="#6f8a4c"/><circle cx="156" cy="466" r="11" fill="#ef6f9c"/><circle cx="184" cy="464" r="11" fill="#f3b14e"/></g>
+  <g><circle cx="340" cy="476" r="44" fill="#86714f"/><circle cx="340" cy="476" r="34" fill="#5f7544"/><circle cx="326" cy="466" r="11" fill="#c9d36a"/><circle cx="354" cy="464" r="11" fill="#e8638c"/></g>
+  <!-- people -->
+  <g fill="#4a4a52"><circle cx="600" cy="470" r="20"/><rect x="588" y="492" width="24" height="56" rx="10"/></g>
+  <g fill="#6b5b73"><circle cx="650" cy="478" r="16"/><rect x="640" y="496" width="20" height="48" rx="9"/></g>
+</svg>

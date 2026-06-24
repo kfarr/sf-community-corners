@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="A colorful street mural painted within a daylight zone">
+  <defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe6c2"/><stop offset="1" stop-color="#f3c1a3"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g2)"/>
+  <rect y="360" width="800" height="240" fill="#6f7468"/>
+  <!-- mural panel -->
+  <rect x="90" y="392" width="620" height="180" rx="8" fill="#2f6f7a"/>
+  <g opacity="0.95">
+    <circle cx="240" cy="482" r="58" fill="#f3b14e"/>
+    <path d="M150 540 Q260 430 380 540" fill="none" stroke="#ef6f9c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M380 540 Q500 440 620 540" fill="none" stroke="#c9d36a" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="520" cy="470" r="30" fill="#e8638c"/>
+    <circle cx="600" cy="450" r="20" fill="#9bd1d6"/>
+  </g>
+  <rect x="90" y="392" width="620" height="180" rx="8" fill="none" stroke="#f4f1e9" stroke-width="5"/>
+</svg>
